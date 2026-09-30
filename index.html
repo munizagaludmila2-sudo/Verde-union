@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cooperativa de Lechuga</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Pacifico&display=swap');
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:'Baloo 2',sans-serif;color:#293029;background:linear-gradient(135deg,#fffdf8,#eef5e9)}
+nav{position:sticky;top:0;z-index:10;background:#ffffffed;padding:12px 18px;box-shadow:0 3px 15px #0001}
+.nav{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:10px}.logo{font-weight:800;color:#477341;font-size:1.2rem}.links{display:flex;flex-wrap:wrap;gap:6px}.links a{padding:7px 11px;border-radius:20px;text-decoration:none;color:#293029;font-weight:700}.links a:hover{background:#dcebd6}
+.hero{min-height:80vh;display:grid;place-items:center;padding:45px 18px}.hero-box{max-width:1100px;width:100%;padding:42px;border-radius:32px;background:#ffffffc9;box-shadow:0 12px 35px #4f664420;display:grid;grid-template-columns:1.2fr .8fr;gap:25px;align-items:center}.badge{background:#dcebd6;padding:8px 15px;border-radius:25px;font-weight:800}.hero h1{font:400 clamp(3.2rem,8vw,6.5rem)/.9 Pacifico;margin:20px 0}.hero h1 span{background:linear-gradient(transparent 58%,#c8dfbd 58%)}.hero p{font-size:1.2rem;line-height:1.5}.btn{display:inline-block;background:#334c30;color:#fff;padding:13px 20px;border-radius:25px;text-decoration:none;font-weight:800}.lettuce{font-size:10rem;text-align:center}
+section{padding:65px 18px}.container{max-width:1100px;margin:auto}.title{text-align:center;font:400 clamp(2.4rem,5vw,4rem) Pacifico;margin:0 0 30px}.title span{background:linear-gradient(transparent 58%,#d5e6cc 58%)}.intro{text-align:center;max-width:800px;margin:-10px auto 30px;font-size:1.15rem;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#ffffffe8;border:1px solid #e1e6dc;border-radius:22px;padding:23px;box-shadow:0 10px 28px #4f664415;transition:.2s}.card:hover{transform:translateY(-4px)}.icon{font-size:1.8rem;background:#edf5e9;width:52px;height:52px;border-radius:15px;display:grid;place-items:center;margin-bottom:10px}.card h3{margin:0 0 8px;font-size:1.45rem}.card p,.card li{line-height:1.5}.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}.accent{border-top:8px solid #9fc58e}.accent2{border-top:8px solid #cbb5d5}
+.team{max-width:750px;margin:auto;grid-template-columns:1fr 1fr}.team .card{text-align:center}.team .icon{margin:auto auto 10px}.steps{display:grid;gap:14px}.quote{max-width:800px;margin:30px auto 0;text-align:center;background:#deecd8;border-radius:22px;padding:23px;font:1.6rem Pacifico}
+table{width:100%;border-collapse:collapse;background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 28px #4f664415}th,td{padding:13px;text-align:left;border-bottom:1px solid #e2e8de}th{background:#dcebd6}
+footer{background:#30402e;color:white;text-align:center;padding:40px 18px}.small{opacity:.75}.top{position:fixed;right:18px;bottom:18px;background:#334c30;color:#fff;text-decoration:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center}
+@media(max-width:800px){.hero-box,.split{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.lettuce{font-size:7rem}}
+@media(max-width:560px){.nav{flex-direction:column;align-items:flex-start}.grid,.team{grid-template-columns:1fr}.hero-box{padding:25px}.lettuce{font-size:6rem}section{padding:50px 14px}}
+</style>
+</head>
+<body id="inicio">
+
+<nav><div class="nav">
+<a class="logo" href="#inicio">🥬 Cooperativa de Lechuga</a>
+<div class="links">
+<a href="#proyecto">Proyecto</a><a href="#objetivos">Objetivos</a><a href="#equipo">Equipo</a><a href="#produccion">Producción</a><a href="#recursos">Recursos</a><a href="#registros">Registros</a>
+</div></div></nav>
+
+<header class="hero"><div class="hero-box">
+<div>
+<span class="badge">🌱 Producción y trabajo colectivo</span>
+<h1>Nuestra <span>Lechuga</span></h1>
+<p>Una cooperativa dedicada a producir lechuga de manera organizada, responsable y colaborativa, buscando generar un producto fresco y beneficiar a sus integrantes y a la comunidad.</p>
+<a class="btn" href="#proyecto">Conocer el proyecto ↓</a>
+</div>
+<div class="lettuce">🥬</div>
+</div></header>
+
+<section id="proyecto"><div class="container">
+<h2 class="title"><span>¿Qué hacemos?</span></h2>
+<p class="intro">Producimos lechuga, organizamos las tareas, cuidamos los cultivos y trabajamos en equipo para obtener un producto fresco y de calidad.</p>
+<div class="grid">
+<div class="card"><div class="icon">🌱</div><h3>Producimos</h3><p>Cultivamos lechuga cuidando cada etapa de su crecimiento.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>Trabajamos en equipo</h3><p>Distribuimos las tareas para que todos puedan participar.</p></div>
+<div class="card"><div class="icon">💧</div><h3>Cuidamos el cultivo</h3><p>Prestamos atención al riego, la limpieza y el estado de las plantas.</p></div>
+<div class="card"><div class="icon">🧺</div><h3>Cosechamos</h3><p>Recolectamos las lechugas cuando alcanzan el momento adecuado.</p></div>
+<div class="card"><div class="icon">📦</div><h3>Preparamos</h3><p>Seleccionamos y acondicionamos el producto para su distribución.</p></div>
+<div class="card"><div class="icon">🌎</div><h3>Beneficio comunitario</h3><p>Buscamos aportar alimentos frescos y generar una actividad productiva.</p></div>
+</div><div class="quote">“Sembramos juntos, cosechamos juntos.”</div>
+</div></section>
+
+<section id="objetivos"><div class="container">
+<h2 class="title"><span>Objetivos y organización</span></h2>
+<div class="split">
+<div class="card accent"><h3>🎯 Nuestro objetivo</h3><p>Crear una actividad productiva basada en la cooperación para cultivar, cosechar y distribuir lechuga.</p><ul><li>Producir lechuga de buena calidad.</li><li>Promover el trabajo en equipo.</li><li>Organizar las tareas.</li><li>Generar ingresos mediante la venta.</li><li>Ofrecer un producto fresco a la comunidad.</li></ul></div>
+<div class="card accent2"><h3>📋 ¿Cómo nos organizamos?</h3><ul><li>Preparación del terreno.</li><li>Siembra y plantación.</li><li>Riego y cuidado.</li><li>Control y limpieza.</li><li>Cosecha.</li><li>Selección y preparación.</li><li>Venta y distribución.</li></ul></div>
+</div></div></section>
+
+<section id="equipo"><div class="container">
+<h2 class="title"><span>Nuestro equipo</span></h2>
+<p class="intro">Cada integrante tiene una responsabilidad para que la cooperativa funcione de manera ordenada.</p>
+<div class="grid team">
+<div class="card"><div class="icon">👨‍🌾</div><h3>Emir Bacur</h3><p><b>Producción y cultivo</b><br>Participa en la preparación, cuidado y control de las plantas.</p></div>
+<div class="card"><div class="icon">📦</div><h3>Samuel Duran</h3><p><b>Organización y distribución</b><br>Participa en la organización de la cosecha, preparación y distribución.</p></div>
+</div></div></section>
+
+<section id="produccion"><div class="container">
+<h2 class="title"><span>Proceso de producción</span></h2>
+<div class="steps">
+<div class="card"><h3>1️⃣ Preparar el terreno</h3><p>Dejar el espacio limpio y en condiciones para comenzar el cultivo.</p></div>
+<div class="card"><h3>2️⃣ Plantar</h3><p>Colocar las plantas de lechuga respetando una separación adecuada.</p></div>
+<div class="card"><h3>3️⃣ Cuidar</h3><p>Realizar el riego y controlar el crecimiento y estado de las plantas.</p></div>
+<div class="card"><h3>4️⃣ Cosechar</h3><p>Recolectar las lechugas cuando estén listas para utilizar o vender.</p></div>
+<div class="card"><h3>5️⃣ Distribuir</h3><p>Preparar el producto y organizar su venta o entrega.</p></div>
+</div></div></section>
+
+<section id="recursos"><div class="container">
+<h2 class="title"><span>Recursos</span></h2>
+<div class="grid">
+<div class="card"><div class="icon">🌱</div><h3>Semillas y plantines</h3><p>Para iniciar la producción.</p></div>
+<div class="card"><div class="icon">💧</div><h3>Agua</h3><p>Para el riego y cuidado del cultivo.</p></div>
+<div class="card"><div class="icon">🪴</div><h3>Espacio de cultivo</h3><p>Terreno preparado para producir.</p></div>
+<div class="card"><div class="icon">🧤</div><h3>Herramientas</h3><p>Para preparar, cuidar y cosechar.</p></div>
+<div class="card"><div class="icon">📦</div><h3>Material de empaque</h3><p>Para preparar el producto.</p></div>
+<div class="card"><div class="icon">💰</div><h3>Dinero inicial</h3><p>Para materiales y primeros gastos.</p></div>
+</div></div></section>
+
+<section id="registros"><div class="container">
+<h2 class="title"><span>Libros y registros</span></h2>
+<p class="intro">Permiten mantener el control de las actividades y del dinero de la cooperativa.</p>
+<table><tr><th>Registro</th><th>¿Para qué sirve?</th></tr>
+<tr><td>📖 Libro de actas</td><td>Anotar reuniones, decisiones y acuerdos.</td></tr>
+<tr><td>👥 Registro de asociados</td><td>Guardar los datos de los integrantes.</td></tr>
+<tr><td>💵 Libro de caja</td><td>Registrar el dinero que entra y sale.</td></tr>
+<tr><td>🌱 Registro de producción</td><td>Controlar siembra, cuidado y cosecha.</td></tr>
+<tr><td>🧺 Registro de ventas</td><td>Anotar las ventas y cantidades distribuidas.</td></tr></table>
+</div></section>
+
+<section><div class="container"><h2 class="title"><span>Producción y ganancias</span></h2>
+<div class="split">
+<div class="card accent"><h3>💵 ¿Cómo comenzamos?</h3><p>Cada integrante puede realizar un aporte inicial para comprar semillas, herramientas y otros materiales necesarios.</p></div>
+<div class="card accent2"><h3>📈 ¿Qué hacemos con lo recaudado?</h3><p>Una parte puede destinarse a cubrir los gastos de producción y otra puede reservarse para continuar y mejorar el proyecto.</p></div>
+</div></div></section>
+
+<footer><div style="font-size:1.5rem;font-weight:800">🥬 Cooperativa de Lechuga</div><div class="small">Emir Bacur · Samuel Duran · Trabajo en equipo y producción</div></footer>
+<a class="top" href="#inicio">↑</a>
+</body></html>
